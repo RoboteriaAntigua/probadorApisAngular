@@ -1,0 +1,19 @@
+<p>probador1 works!</p>
+<h2>Prueba inicial</h2>
+<button (click)="pruebaInicial()">Probar</button>
+<p>{{respuesta}}</p>
+
+<button (click)="register()">Register</button>
+<p>El usuario es, (agregar form): {{user|json}}</p>
+<p>{{respuesta}}</p>
+
+<button (click)="login()">login</button>
+<p>{{token}}</p>
+
+<h2>Probando una ruta protejida por el middleware auth:sanctum</h2>
+<button (click)="rutaProtejida()">ruta protejida</button>
+<p>{{respuestaRutaProtejida}}</p>
+
+<h2>Logout</h2>
+<button (click)="logout()">Logout</button>
+<p>{{respuestaLogout}}</p>
